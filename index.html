@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEST EXAM</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+   <h3 class="exam-title">UNIT TEST</h3>
+   <h3>Subject - Education</h3>
+   <h3>Class-XII</h3>
+   <h3>Marks - 25</h3>
+   <div class="exam-timer" id="examTimer">00:00:00</div>
+</nav>
+
+<div class="container">
+  <div class="timer-inputs" id="timerInputs">
+    <input type="number" id="hours" placeholder="HH" min="0">
+    <input type="number" id="minutes" placeholder="MM" min="0" max="59">
+    <input type="number" id="seconds" placeholder="SS" min="0" max="59">
+  </div>
+  <button id="startBtn" onclick="startExam()">Conduct Exam</button>
+
+  <div class="countdown" id="countdownDisplay"></div>
+  <div class="goodluck" id="goodluckText">✨ All the Best Students! ✨</div>
+  <div class="question-paper" id="questionPaper">
+    <p>
+    <span style="color: red;">1.	Answer the following questions:</span><span style="color: yellow; margin-left: 30px;">(1x5=5)</span><br>
+      (a) When was Indira Gandhi National Open University (IGNOU) established? <br> 
+      ইন্দিৰা গান্ধী ৰাষ্ট্ৰীয় মুক্ত বিশ্ববিদ‍্যালয় কেতিয়া প্ৰতিষ্ঠা কৰা হৈছিল ? <br>
+      (b) What is Voluntary or Volitional attention? <br> 
+        ঐচ্ছিক বা ইচ্ছাকৃত মনোযোগ কাক বোলে?<br>
+      (c) What is Memory? স্মৃতি কি? <br>
+      (d) Mention one characteristics of Forgetting. <br>
+       বিস্মৃতিৰ এটা বৈশিষ্ট‍্য উল্লেখ কৰা। <br>
+      (e) “Attention is a process of getting an object of thought clearly before the mind” — who gave this definition?<br>
+      “মনোযোগ এক প্ৰক্ৰিয়া যাৰ জৰিয়তে এক চিন্তনীয় বিষয় মনত স্পষ্ট কৰি তোলা হয়” – এই সংজ্ঞাটো কোনে আগবঢ়াইছিল? <br>
+    </p>
+    <p>
+    <span style="color: red;"> 2.Write  two aims of non formal education. <br>অগতানুগতিক শিক্ষাৰ দুটা লক্ষ‍্য লিখা। </span> <span style="color: yellow; margin-left: 30px;">(2)</span><br>
+      3. Write the relationship between Open and Distance education.<br>
+        মুক্ত আৰু দূৰ শিক্ষাৰ মাজৰ পাৰ্থক‍্য লিখা। <span style="color: yellow; margin-left: 30px;">(2)</span><br>
+      4. what is correspondence education? Mention an objective of correspondence education. <br>
+       ডাকযোগে শিক্ষা কি? ইয়াৰ এটা  উদ্দেশ্য উল্লেখ কৰা।<span style="color: yellow; margin-left: 30px;">1+1=2</span> <br>
+      5.	Mention the two factors or resources that influence the interest of an individual. <br>
+       এজন ব্যক্তিৰ আগ্ৰহক প্ৰভাৱিত কৰিব পৰা দুটা উৎস বা উপাদান উল্লেখ কৰা।  <span style="color: yellow; margin-left: 30px;">2</span><br>
+      6.Discuss the two marks of good memory?  <br>
+       ভাল স্মৃতিৰ দুটা লক্ষণ আলোচনা কৰা। <span style="color: yellow; margin-left: 30px;">2</span> <br>
+      7.Mention two causes of forgetting. <br>
+       বিম্মৃতিৰ ২ টা শাৰীৰিক কাৰণ উল্লেখ কৰা। <span style="color: yellow; margin-left: 30px;">2</span> <br>
+      8.Attention and interest are like two sides of the same coin. Discuss. <br>
+        মনোযোগ আৰু আগ্ৰহ একেটা মুদ্ৰাৰ ইপিঠি- সিপিঠি সদৃশ — আলোচনা কৰা। <span style="color: yellow; margin-left: 30px;">4</span> <br>
+      9.Discuss about the strengths and weaknesses of Open Education.<br>
+        মুক্ত শিক্ষাৰ সবলতা  আৰু দুৰ্বলতা সমূহৰ বিষয়ে আলোচনা কৰা। <span style="color: yellow; margin-left: 30px;">4</span> <br>
+
+    </p>
+  </div>
+  <div class="final-screen" id="finalScreen">
+    <h2>⏰ Time Out! Submit your answer sheet.</h2>
+    <ul>
+      <li>Full marks - 25</li>
+      <li>Pass marks - Undefined</li>
+    </ul>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
