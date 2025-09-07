@@ -170,3 +170,8 @@ button:hover {
   font-size: 20px;
   color: #f87171;
 }
+.question {
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
